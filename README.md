@@ -31,6 +31,7 @@ Most local-learning-based methods assume a uniform neighbor set for every missin
 ## Repository Structure
 
 SCImputation/
+
 ├─ data/
 
 │  ├─ completegds38.mat
