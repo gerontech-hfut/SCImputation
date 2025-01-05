@@ -32,20 +32,35 @@ Most local-learning-based methods assume a uniform neighbor set for every missin
 
 SCImputation/
 ├─ data/
+
 │  ├─ completegds38.mat
+
 │  ├─ completegds1761.mat
+
 │  ├─ completegds3835.mat
+
 │  ├─ missingdata_gds38.mat
+
 │  ├─ missingdata_gds1761.mat
+
 │  ├─ missingdata_gds3835.mat
+
 │  └─ ... (other data files)
+
 ├─ src/
+
 │  ├─ SCImpute_KNN/         # KNN-based SCImputation variants
+
 │  ├─ SCImpute_LLS/         # LLS-based SCImputation variants
+
 │  ├─ weighting_schemes/    # code for correlations and weighting
+
 │  ├─ scimpute_utils/       # utility functions (similarity, etc.)
+
 │  └─ ...
+
 ├─ run_demo.m               # example script
+
 └─ README.md
 
 
