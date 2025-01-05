@@ -125,8 +125,11 @@ imputedData = SC_PLlSimpute_continuous(missing_data);
 
 % 3. Evaluate
 rmse = sqrt(mean((complete_data(:) - imputedData(:)).^2));
+
 mae  = mean(abs(complete_data(:) - imputedData(:)));
+
 fprintf('RMSE = %.4f\n', rmse);
+
 fprintf('MAE  = %.4f\n', mae);
 
 ## Datasets
